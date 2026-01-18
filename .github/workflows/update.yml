@@ -16,7 +16,7 @@ jobs:
           python-version: "3.11"
 
       - run: pip install storygraph-api
-      - run: pip install beautifulsoup4 requests
+      - run: pip install requests
       - run: python scripts/update_reading.py
         env:
           STORYGRAPH_COOKIE: ${{ secrets.STORYGRAPH_COOKIE }}
