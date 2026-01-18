@@ -1,25 +1,37 @@
 {
-  "updated": "2026-01-18",
+  "updated": "2026-01-17",
   "books": [
     {
-      "title": "Slough House",
-      "book_id": "4976",
-      "authors": null
+      "title": "Spook Street",
+      "authors": [
+        "Mick Herron"
+      ],
+      "book_id": "c52d4ac8-e0af-4579-8c2f-e7fef6304efc",
+      "cover": "https://cdn.thestorygraph.com/iaeen44isikjbdiocl0y8j1bbo6o"
     },
     {
       "title": "The Glass Bead Game",
+      "authors": [
+        "Hermann Hesse"
+      ],
       "book_id": "c7b724d9-805f-45f1-b525-48ae6c92049f",
-      "authors": null
+      "cover": "https://cdn.thestorygraph.com/vlyp3b411pgy3gb489842831c0i7"
     },
     {
       "title": "The Hugo Award Showcase: 2010 Volume",
+      "authors": [
+        "Kij Johnson, Ian McDonald, Nancy Kress, Elizabeth Bear, Mary Robinette Kowal, Michael Swanwick, Robert Reed, James Alan Gardner, John Kessel"
+      ],
       "book_id": "e086307d-156e-4284-8305-802844330d4b",
-      "authors": null
+      "cover": "https://cdn.thestorygraph.com/3zxk580to7pfzpcgnxj480dkh2gs"
     },
     {
       "title": "Socialism: Past and Future",
+      "authors": [
+        "Michael Harrington"
+      ],
       "book_id": "f79c4acf-eea5-41f0-8ed7-8403679de514",
-      "authors": null
+      "cover": "https://cdn.thestorygraph.com/ije1bxifjsbemqhjyj69j0we5ve2"
     }
   ]
 }
