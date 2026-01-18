@@ -1,8 +1,7 @@
-from storygraph_api import User
+from storygraph_api import User, Book
 import json
 import os
 from datetime import date
-import requests
 
 USERNAME = "brucethemuce"
 COOKIE = os.environ.get("STORYGRAPH_COOKIE")
@@ -17,17 +16,7 @@ raw = user.currently_reading(USERNAME, cookie=COOKIE)
 if isinstance(raw, str):
     raw = json.loads(raw)
 
-def get_book_metadata(book_id):
-    url = f"https://app.thestorygraph.com/api/books/{book_id}"
-    headers = {
-        "User-Agent": "Mozilla/5.0",
-        "cookie": COOKIE
-    }
-    resp = requests.get(url, headers=headers)
-    resp.raise_for_status()
-    return resp.json()
-
-# ---- Load previous data safely ----
+# Load previous data safely
 prev_data = {}
 if os.path.exists("current.json"):
     try:
@@ -37,53 +26,50 @@ if os.path.exists("current.json"):
         prev_data = {}
 
 prev_ids = [b["book_id"] for b in prev_data.get("books", []) if isinstance(b, dict)]
-new_ids  = [b.get("book_id") for b in raw if isinstance(b, dict) and b.get("book_id")]
+new_ids = [b.get("book_id") for b in raw if isinstance(b, dict) and b.get("book_id")]
 
-# ---- If no change, stop ----
+# If no change, stop
 if prev_ids == new_ids:
-    print("No changes detected. Skipping scraping.")
+    print("No changes detected. Skipping update.")
     exit(0)
 
-# ---- Fetch metadata if changed ----
+# Fetch metadata using Book().book_info()
+book_api = Book()
 books = []
+
 for item in raw:
-    # Only proceed if we have a book_id
-    book_id = item.get("book_id") if isinstance(item, dict) else None
+    if not isinstance(item, dict):
+        continue
 
-    title = item.get("title") if isinstance(item, dict) else str(item)
+    book_id = item.get("book_id")
+    title = item.get("title")
 
-    author = None
-    cover = None
+    if not book_id or not title:
+        continue
 
-    if book_id:
-        try:
-            details = user.book(book_id, cookie=COOKIE)
-            # Sometimes details is string JSON
-            if isinstance(details, str):
-                details = json.loads(details)
+    authors = None
+    try:
+        details = book_api.book_info(book_id)
+        if isinstance(details, str):
+            details = json.loads(details)
 
-            # Pick the first author name
-            author_list = details.get("authors") or []
-            author = author_list[0] if author_list else None
+        authors = details.get("authors")
 
-            # Cover image
-            cover = details.get("cover_image_url")
-
-        except Exception as e:
-            author = None
-            cover = None
+    except Exception as e:
+        authors = None
 
     books.append({
         "title": title,
-        "author": author,
         "book_id": book_id,
-        "cover": cover
+        "authors": authors
     })
 
+# Save current.json
 data = {
     "updated": str(date.today()),
     "books": books
 }
+
 with open("current.json", "w", encoding="utf-8") as f:
     json.dump(data, f, indent=2, ensure_ascii=False)
 
