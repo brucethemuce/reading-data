@@ -1,11 +1,25 @@
 {
-  "updated": "2026-01-17",
+  "updated": "2026-01-18",
   "books": [
     {
-      "title": "",
-      "author": null,
-      "book_id": "",
-      "cover": null
+      "title": "Slough House",
+      "book_id": "4976",
+      "authors": null
+    },
+    {
+      "title": "The Glass Bead Game",
+      "book_id": "c7b724d9-805f-45f1-b525-48ae6c92049f",
+      "authors": null
+    },
+    {
+      "title": "The Hugo Award Showcase: 2010 Volume",
+      "book_id": "e086307d-156e-4284-8305-802844330d4b",
+      "authors": null
+    },
+    {
+      "title": "Socialism: Past and Future",
+      "book_id": "f79c4acf-eea5-41f0-8ed7-8403679de514",
+      "authors": null
     }
   ]
 }
