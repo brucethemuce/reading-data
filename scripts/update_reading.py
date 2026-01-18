@@ -6,7 +6,7 @@ from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup
 import time
 
-USERNAME = "brucethemuce"
+USERNAME = os.environ.get("STORYGRAPH_USERNAME")
 COOKIE = os.environ.get("STORYGRAPH_COOKIE")
 
 def currently_reading(uname, cookie):

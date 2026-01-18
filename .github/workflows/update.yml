@@ -15,11 +15,11 @@ jobs:
         with:
           python-version: "3.11"
 
-      - run: pip install storygraph-api
       - run: pip install requests
       - run: python scripts/update_reading.py
         env:
           STORYGRAPH_COOKIE: ${{ secrets.STORYGRAPH_COOKIE }}
+          STORYGRAPH_USERNAME: ${{ secrets.STORYGRAPH_USERNAME }}
 
       - run: |
           git config user.name "reading-bot"
