@@ -75,8 +75,17 @@ def parse_html(html):
             "book_id": book_id,
             "cover": cover
         })
+        
+    # remove duplicates by book_id
+    unique_books = []
+    seen = set()
+    for b in books:
+        if b["book_id"] in seen:
+            continue
+        seen.add(b["book_id"])
+        unique_books.append(b)
 
-    return books
+    return unique_books
 
 if not COOKIE:
     raise RuntimeError("STORYGRAPH_COOKIE is missing")
