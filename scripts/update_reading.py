@@ -12,20 +12,20 @@ if not COOKIE:
 user = User()
 result = user.currently_reading(USERNAME, cookie=COOKIE)
 
-books = []
+# If the library returns a JSON string, parse it
+if isinstance(result, str):
+    result = json.loads(result)
 
+books = []
 for item in result:
-    # Expected case: dict with title + book_id
     if isinstance(item, dict):
         books.append({
             "title": item.get("title"),
             "book_id": item.get("book_id")
         })
-
-    # Fallback case: plain string
-    elif isinstance(item, str):
+    else:
         books.append({
-            "title": item,
+            "title": str(item),
             "book_id": None
         })
 
