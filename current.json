@@ -4,7 +4,25 @@
     {
       "title": null,
       "author": null,
-      "book_id": null,
+      "book_id": "4976",
+      "cover": null
+    },
+    {
+      "title": null,
+      "author": null,
+      "book_id": "c7b724d9-805f-45f1-b525-48ae6c92049f",
+      "cover": null
+    },
+    {
+      "title": null,
+      "author": null,
+      "book_id": "e086307d-156e-4284-8305-802844330d4b",
+      "cover": null
+    },
+    {
+      "title": null,
+      "author": null,
+      "book_id": "f79c4acf-eea5-41f0-8ed7-8403679de514",
       "cover": null
     }
   ]
