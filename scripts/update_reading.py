@@ -33,13 +33,17 @@ def scrape_book(book_id):
 
     return title, author, cover
 
-# ---- Load previous data ----
+# ---- Load previous data safely ----
 prev_data = {}
 if os.path.exists("current.json"):
-    with open("current.json", "r", encoding="utf-8") as f:
-        prev_data = json.load(f)
+    try:
+        with open("current.json", "r", encoding="utf-8") as f:
+            prev_data = json.load(f) or {}
+    except (json.JSONDecodeError, ValueError):
+        # If file is corrupted or empty, just rebuild it
+        prev_data = {}
 
-prev_ids = [b["book_id"] for b in prev_data.get("books", [])]
+prev_ids = [b["book_id"] for b in prev_data.get("books", []) if isinstance(b, dict)]
 new_ids  = [b.get("book_id") for b in raw if isinstance(b, dict) and b.get("book_id")]
 
 # ---- If no change, stop ----
