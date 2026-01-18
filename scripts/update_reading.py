@@ -9,16 +9,25 @@ COOKIE = os.environ["STORYGRAPH_COOKIE"]
 user = User()
 books = user.currently_reading(USERNAME, cookie=COOKIE)
 
-data = {
-    "updated": str(date.today()),
-    "books": [
-        {
+book_list = []
+
+for b in books:
+    if isinstance(b, dict):
+        book_list.append({
             "title": b.get("title"),
             "author": b.get("author")
-        }
-        for b in books
-    ]
+        })
+    else:
+        book_list.append({
+            "title": str(b),
+            "author": ""
+        })
+
+data = {
+    "updated": str(date.today()),
+    "books": book_list
 }
+
 
 with open("current.json", "w", encoding="utf-8") as f:
     json.dump(data, f, indent=2)
