@@ -17,6 +17,7 @@ jobs:
 
       - run: pip install requests
       - run: pip install selenium
+      - run: pip install bs4
       - run: python scripts/update_reading.py
         env:
           STORYGRAPH_COOKIE: ${{ secrets.STORYGRAPH_COOKIE }}
