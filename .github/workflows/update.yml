@@ -16,6 +16,7 @@ jobs:
           python-version: "3.11"
 
       - run: pip install requests
+      - run: pip install selenium
       - run: python scripts/update_reading.py
         env:
           STORYGRAPH_COOKIE: ${{ secrets.STORYGRAPH_COOKIE }}
