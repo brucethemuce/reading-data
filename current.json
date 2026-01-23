@@ -1,5 +1,5 @@
 {
-  "updated": "2026-01-18",
+  "updated": "2026-01-23",
   "books": [
     {
       "title": "Socialism: Past and Future",
@@ -8,14 +8,6 @@
       ],
       "book_id": "8a974e1d-405b-404d-bc22-553a31e9c53d",
       "cover": "https://cdn.thestorygraph.com/juvp7ng7vas6lm9m7n06sztlrnj6"
-    },
-    {
-      "title": "Spook Street",
-      "authors": [
-        "Mick Herron"
-      ],
-      "book_id": "c52d4ac8-e0af-4579-8c2f-e7fef6304efc",
-      "cover": "https://cdn.thestorygraph.com/iaeen44isikjbdiocl0y8j1bbo6o"
     },
     {
       "title": "The Glass Bead Game",
