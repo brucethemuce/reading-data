@@ -1,14 +1,6 @@
 {
-  "updated": "2026-01-23",
+  "updated": "2026-02-10",
   "books": [
-    {
-      "title": "Socialism: Past and Future",
-      "authors": [
-        "Michael Harrington"
-      ],
-      "book_id": "8a974e1d-405b-404d-bc22-553a31e9c53d",
-      "cover": "https://cdn.thestorygraph.com/juvp7ng7vas6lm9m7n06sztlrnj6"
-    },
     {
       "title": "The Glass Bead Game",
       "authors": [
@@ -16,6 +8,14 @@
       ],
       "book_id": "c7b724d9-805f-45f1-b525-48ae6c92049f",
       "cover": "https://cdn.thestorygraph.com/vlyp3b411pgy3gb489842831c0i7"
+    },
+    {
+      "title": "Socialism: Past and Future",
+      "authors": [
+        "Michael Harrington"
+      ],
+      "book_id": "8a974e1d-405b-404d-bc22-553a31e9c53d",
+      "cover": "https://cdn.thestorygraph.com/juvp7ng7vas6lm9m7n06sztlrnj6"
     },
     {
       "title": "The Hugo Award Showcase: 2010 Volume",
