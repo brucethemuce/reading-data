@@ -1,6 +1,14 @@
 {
-  "updated": "2026-02-10",
+  "updated": "2026-02-11",
   "books": [
+    {
+      "title": "City of Blades",
+      "authors": [
+        "Robert Jackson Bennett"
+      ],
+      "book_id": "35a36855-6457-489b-8637-0933afe49f9b",
+      "cover": "https://cdn.thestorygraph.com/0qr8p2lzmhkl1xaim6mr78xfjshk"
+    },
     {
       "title": "The Glass Bead Game",
       "authors": [
