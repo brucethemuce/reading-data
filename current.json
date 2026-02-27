@@ -1,14 +1,6 @@
 {
-  "updated": "2026-02-17",
+  "updated": "2026-02-27",
   "books": [
-    {
-      "title": "London Rules",
-      "authors": [
-        "Mick Herron"
-      ],
-      "book_id": "8ed531c4-6302-4ed3-ae5f-af2bd8834931",
-      "cover": "https://cdn.thestorygraph.com/ott5fdxna03iwh8un0xt6qazsqp2"
-    },
     {
       "title": "City of Blades",
       "authors": [
