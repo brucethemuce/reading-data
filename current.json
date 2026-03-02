@@ -1,13 +1,13 @@
 {
-  "updated": "2026-02-27",
+  "updated": "2026-03-02",
   "books": [
     {
-      "title": "City of Blades",
+      "title": "The Hugo Award Showcase: 2010 Volume",
       "authors": [
-        "Robert Jackson Bennett"
+        "Kij Johnson, Ian McDonald, Nancy Kress, Elizabeth Bear, Mary Robinette Kowal, Michael Swanwick, Robert Reed, James Alan Gardner, John Kessel"
       ],
-      "book_id": "35a36855-6457-489b-8637-0933afe49f9b",
-      "cover": "https://cdn.thestorygraph.com/0qr8p2lzmhkl1xaim6mr78xfjshk"
+      "book_id": "e086307d-156e-4284-8305-802844330d4b",
+      "cover": "https://cdn.thestorygraph.com/3zxk580to7pfzpcgnxj480dkh2gs"
     },
     {
       "title": "The Glass Bead Game",
@@ -18,20 +18,20 @@
       "cover": "https://cdn.thestorygraph.com/vlyp3b411pgy3gb489842831c0i7"
     },
     {
-      "title": "Socialism: Past and Future",
+      "title": "Joe Country",
       "authors": [
-        "Michael Harrington"
+        "Mick Herron"
       ],
-      "book_id": "8a974e1d-405b-404d-bc22-553a31e9c53d",
-      "cover": "https://cdn.thestorygraph.com/juvp7ng7vas6lm9m7n06sztlrnj6"
+      "book_id": "e9c501eb-b17f-4e3c-a784-52462793a1a3",
+      "cover": "https://cdn.thestorygraph.com/mzmvx478ihlvgouw0ssthnnfx0oe"
     },
     {
-      "title": "The Hugo Award Showcase: 2010 Volume",
+      "title": "City of Blades",
       "authors": [
-        "Kij Johnson, Ian McDonald, Nancy Kress, Elizabeth Bear, Mary Robinette Kowal, Michael Swanwick, Robert Reed, James Alan Gardner, John Kessel"
+        "Robert Jackson Bennett"
       ],
-      "book_id": "e086307d-156e-4284-8305-802844330d4b",
-      "cover": "https://cdn.thestorygraph.com/3zxk580to7pfzpcgnxj480dkh2gs"
+      "book_id": "35a36855-6457-489b-8637-0933afe49f9b",
+      "cover": "https://cdn.thestorygraph.com/0qr8p2lzmhkl1xaim6mr78xfjshk"
     }
   ]
 }
