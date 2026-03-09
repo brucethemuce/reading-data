@@ -1,6 +1,14 @@
 {
-  "updated": "2026-03-02",
+  "updated": "2026-03-09",
   "books": [
+    {
+      "title": "The Catch",
+      "authors": [
+        "Mick Herron"
+      ],
+      "book_id": "a5e2b07f-4740-4198-82c0-14e7b28ae2b4",
+      "cover": "https://cdn.thestorygraph.com/aw9j0ggj58qwcsf4uagjntbhpfdf"
+    },
     {
       "title": "The Hugo Award Showcase: 2010 Volume",
       "authors": [
@@ -16,14 +24,6 @@
       ],
       "book_id": "c7b724d9-805f-45f1-b525-48ae6c92049f",
       "cover": "https://cdn.thestorygraph.com/vlyp3b411pgy3gb489842831c0i7"
-    },
-    {
-      "title": "Joe Country",
-      "authors": [
-        "Mick Herron"
-      ],
-      "book_id": "e9c501eb-b17f-4e3c-a784-52462793a1a3",
-      "cover": "https://cdn.thestorygraph.com/mzmvx478ihlvgouw0ssthnnfx0oe"
     },
     {
       "title": "City of Blades",
