@@ -1,14 +1,6 @@
 {
-  "updated": "2026-03-09",
+  "updated": "2026-03-10",
   "books": [
-    {
-      "title": "The Catch",
-      "authors": [
-        "Mick Herron"
-      ],
-      "book_id": "a5e2b07f-4740-4198-82c0-14e7b28ae2b4",
-      "cover": "https://cdn.thestorygraph.com/aw9j0ggj58qwcsf4uagjntbhpfdf"
-    },
     {
       "title": "The Hugo Award Showcase: 2010 Volume",
       "authors": [
