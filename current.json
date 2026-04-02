@@ -1,14 +1,6 @@
 {
-  "updated": "2026-03-20",
+  "updated": "2026-04-02",
   "books": [
-    {
-      "title": "City of Blades",
-      "authors": [
-        "Robert Jackson Bennett"
-      ],
-      "book_id": "35a36855-6457-489b-8637-0933afe49f9b",
-      "cover": "https://cdn.thestorygraph.com/0qr8p2lzmhkl1xaim6mr78xfjshk"
-    },
     {
       "title": "The Hugo Award Showcase: 2010 Volume",
       "authors": [
