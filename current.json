@@ -1,13 +1,21 @@
 {
-  "updated": "2026-04-02",
+  "updated": "2026-04-27",
   "books": [
+    {
+      "title": "An Instinct for Dragons",
+      "authors": [
+        "David E. Jones"
+      ],
+      "book_id": "76f82e7d-770c-4265-b5e1-104d4b7f553d",
+      "cover": "https://cdn.thestorygraph.com/q3cwdm0je4gr0ht3spptofdng7q0"
+    },
     {
       "title": "The Hugo Award Showcase: 2010 Volume",
       "authors": [
         "Kij Johnson, Ian McDonald, Nancy Kress, Elizabeth Bear, Mary Robinette Kowal, Michael Swanwick, Robert Reed, James Alan Gardner, John Kessel"
       ],
       "book_id": "e086307d-156e-4284-8305-802844330d4b",
-      "cover": "https://cdn.thestorygraph.com/3zxk580to7pfzpcgnxj480dkh2gs"
+      "cover": "https://cdn.thestorygraph.com/w5iwgmw0fy98wdnmae4ipte62hcc"
     },
     {
       "title": "The Glass Bead Game",
@@ -15,7 +23,7 @@
         "Hermann Hesse"
       ],
       "book_id": "c7b724d9-805f-45f1-b525-48ae6c92049f",
-      "cover": "https://cdn.thestorygraph.com/vlyp3b411pgy3gb489842831c0i7"
+      "cover": "https://cdn.thestorygraph.com/7cneairb44zodlguu7nhtm4qmdww"
     }
   ]
 }
