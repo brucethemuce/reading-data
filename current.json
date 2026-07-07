@@ -1,14 +1,6 @@
 {
-  "updated": "2026-07-06",
+  "updated": "2026-07-07",
   "books": [
-    {
-      "title": "Theodore Roosevelt: A Strenuous Life",
-      "authors": [
-        "Kathleen Dalton"
-      ],
-      "book_id": "d2eb406b-6bf9-4c90-8fe6-21f030fc3084",
-      "cover": "https://cdn.thestorygraph.com/qb8sqc2ag9n6umvfucbe9ujs3ani"
-    },
     {
       "title": "Piranesi",
       "authors": [
@@ -16,6 +8,14 @@
       ],
       "book_id": "a4f97770-d661-4687-944e-89e02077190d",
       "cover": "https://cdn.thestorygraph.com/tz55yenrtmknvxuotg8dlcpdv75k"
+    },
+    {
+      "title": "Theodore Roosevelt: A Strenuous Life",
+      "authors": [
+        "Kathleen Dalton"
+      ],
+      "book_id": "d2eb406b-6bf9-4c90-8fe6-21f030fc3084",
+      "cover": "https://cdn.thestorygraph.com/qb8sqc2ag9n6umvfucbe9ujs3ani"
     },
     {
       "title": "The Hugo Award Showcase: 2010 Volume",
