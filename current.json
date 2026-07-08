@@ -1,13 +1,13 @@
 {
-  "updated": "2026-07-07",
+  "updated": "2026-07-08",
   "books": [
     {
-      "title": "Piranesi",
+      "title": "'Salem's Lot",
       "authors": [
-        "Susanna Clarke"
+        "Stephen King"
       ],
-      "book_id": "a4f97770-d661-4687-944e-89e02077190d",
-      "cover": "https://cdn.thestorygraph.com/tz55yenrtmknvxuotg8dlcpdv75k"
+      "book_id": "78cd36b5-28b1-4b95-87e8-e53ccb54f222",
+      "cover": "https://cdn.thestorygraph.com/n0z5620nrj3mkpf8ym23ul0s0qv2"
     },
     {
       "title": "Theodore Roosevelt: A Strenuous Life",
