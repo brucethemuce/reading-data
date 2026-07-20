@@ -1,14 +1,6 @@
 {
-  "updated": "2026-07-08",
+  "updated": "2026-07-20",
   "books": [
-    {
-      "title": "'Salem's Lot",
-      "authors": [
-        "Stephen King"
-      ],
-      "book_id": "78cd36b5-28b1-4b95-87e8-e53ccb54f222",
-      "cover": "https://cdn.thestorygraph.com/n0z5620nrj3mkpf8ym23ul0s0qv2"
-    },
     {
       "title": "Theodore Roosevelt: A Strenuous Life",
       "authors": [
