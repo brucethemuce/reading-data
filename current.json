@@ -1,6 +1,14 @@
 {
-  "updated": "2026-07-20",
+  "updated": "2026-07-23",
   "books": [
+    {
+      "title": "The Moon Is a Harsh Mistress",
+      "authors": [
+        "Robert A. Heinlein"
+      ],
+      "book_id": "11d94a9a-2f28-4397-8166-af4e16dc832e",
+      "cover": "https://cdn.thestorygraph.com/m52gnx8bcsphodlz5o6jtovak1qc"
+    },
     {
       "title": "Theodore Roosevelt: A Strenuous Life",
       "authors": [
