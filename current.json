@@ -1,6 +1,14 @@
 {
-  "updated": "2026-08-10",
+  "updated": "2026-08-22",
   "books": [
+    {
+      "title": "The Etymologicon: A Circular Stroll through the Hidden Connections of the English Language",
+      "authors": [
+        "Mark Forsyth"
+      ],
+      "book_id": "50aa3f6a-49d1-4354-b85a-733518739c1c",
+      "cover": "https://cdn.thestorygraph.com/awswwzolmb92l6gqmicq3jpzufoq"
+    },
     {
       "title": "The Hugo Award Showcase: 2010 Volume",
       "authors": [
